@@ -1,0 +1,58 @@
+.main-body{
+    height: 90%;
+    width: 90%;
+    background-color: rgba(126, 126, 126, 0.8);
+    padding:10px;
+    margin:auto;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.buttonEinheit{
+    background-color: #fff;
+}
+.title{
+    text-align: center;
+}
+
+.titleZahlen{
+    color:#fff;
+}
+#winsDynamic{
+    display:flex;
+    gap:0.4em;
+}
+#lossesDynamic{
+    display:flex;
+    gap:0.4em;
+}
+.zahlEinheit{
+    color: #fff;
+}
+#dynamicDate{
+    color:#fff;
+}
+.saveZone{
+    display:grid;
+    grid-template-columns: 1fr ;
+    height:90%;
+    width:90%;
+    background-color: rgba(126, 126, 126, 0.8);
+    margin:auto;
+    padding:10px;
+    border:1px solid black;
+}
+.listedStats{
+    color:#fff;
+    padding:5px;
+    text-align: center;
+}
+#savedStats{
+    color:#fff;
+    text-align: center;
+}
+.saving{
+    display:flex;
+    justify-content: center;
+    padding:10px;
+    margin:auto;
+}
