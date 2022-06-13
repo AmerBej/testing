@@ -57,6 +57,7 @@ if(save==null){
     }
     list.push(abj)
     localStorage.setItem("savedGames", JSON.stringify(list))
+    save = JSON.parse(localStorage.getItem("savedGames"))
 }
 
 
